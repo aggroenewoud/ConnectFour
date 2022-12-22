@@ -8,7 +8,7 @@ class game:
 
         self.board = board.board(6, 7)
 
-        self.game_ongoing = True
+        self.game_ongoing = self.board.board_filled()
 
         self.players = [
             None,
