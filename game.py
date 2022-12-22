@@ -17,6 +17,12 @@ class game:
 
         self.select_players()
 
+        self.start_game()
+
+    def start_game(self):
+
+        self.board.print_board()
+
     def select_players(self):
 
         options = [
