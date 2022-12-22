@@ -1,3 +1,10 @@
+import game
+
+class main:
+
+    def __init__(self):
+
+        pass
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
