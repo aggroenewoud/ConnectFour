@@ -31,3 +31,20 @@ class board:
             y_index += str(i + 1) + ' '
 
         print(y_index)
+
+    def board_filled(self):
+
+        board = self.board
+
+        empty_field = 0
+
+        for x in range(len(board)):
+            for y in range(len(board[0])):
+                if board[x][y] == ' ':
+                    empty_field += 1
+
+        if empty_field > 0:
+            return False
+        else:
+            return True
+
