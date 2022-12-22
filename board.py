@@ -1,8 +1,8 @@
 class board:
 
-    def __init__(self):
+    def __init__(self, row, column):
 
-        pass
+        self.board = self.create_board(row, column)
 
     def create_board(self, row, column):
 
@@ -20,7 +20,9 @@ class board:
 
         return board
 
-    def print_board(self, board):
+    def print_board(self):
+
+        board = self.board
 
         for x in range(len(board)):
 

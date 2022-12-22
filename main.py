@@ -4,7 +4,7 @@ class main:
 
     def __init__(self):
 
-        pass
+        game.game()
 
 if __name__ == '__main__':
     main()
