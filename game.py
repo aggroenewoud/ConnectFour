@@ -40,7 +40,5 @@ class game:
 
         self.players[1] = options[user_choice2]()
 
-        print(self.players)
-
         if self.players[0] and self.players[1]:
             return
